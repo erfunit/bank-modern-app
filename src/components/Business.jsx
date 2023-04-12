@@ -8,6 +8,7 @@ const FeatureCart = ({ icon, title, content, index }) => (
     className={`flex cursor-pointer ring-1 ring-white/20 flex-row  p-6 rounded-[20px] ${
       index !== features.length - 1 ? "mb-6" : "mb-9"
     } feature-card`}
+    id="product"
   >
     <div
       className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} transition-all bg-dimBlue`}
