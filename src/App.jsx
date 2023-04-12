@@ -28,7 +28,7 @@ const App = () => (
     </div>
 
     <div className={`bg-primary ${styles.paddingX}`}>
-      <div className={`${styles.boxWidth}`}>
+      <div className={`${styles.boxWidth} mx-auto`}>
         <Stats /> <Business /> <Billing /> <CardDeal /> <Testimonials />
         <Clients /> <CTA /> <Footer />
       </div>
